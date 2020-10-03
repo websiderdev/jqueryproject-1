@@ -4,6 +4,7 @@
 
 .section {
   height: 750px;
+  padding: 5rem 8rem;
 }
 
 #header {
@@ -85,6 +86,7 @@
 .banner {
   background: white;
   overflow: hidden;
+  padding: 0;
 }
 
 .banner .banner-slider {
@@ -110,25 +112,83 @@
      object-position: bottom;
 }
 
-.focus {
+.heading {
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.who-we-are {
+  background: #212529;
+}
+
+.who-we-are .whoweare-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 450px;
+  margin-top: 60px;
+}
+
+.who-we-are .whoweare-wrapper .left-content {
+  width: 50%;
+  background: red;
+}
+
+.who-we-are .whoweare-wrapper .right-content {
+  width: 50%;
   background: green;
 }
 
-.service {
-  background: #b5f02b;
+.what-we-do {
+  background: #1f1f1f;
 }
 
-.gallery {
-  background: #c55d17;
+.what-we-do .heading {
+  text-align: left;
 }
 
-.follow {
-  background: #0eeee3;
+.what-we-do .whatwedo-wrapper-slider {
+  margin-top: 60px;
+}
+
+.what-we-do .whatwedo-wrapper-slider .slider-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  outline: none;
+}
+
+.what-we-do .whatwedo-wrapper-slider .slider-wrapper img {
+  width: 60%;
+  height: 450px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.what-we-do .whatwedo-wrapper-slider .slider-wrapper .slider-text {
+  color: white;
+  width: 40%;
+  padding: 4rem 0rem 4rem 4rem;
+  font-size: 3rem;
+}
+
+.social-media {
+  background: #212529;
+  height: 400px;
+}
+
+.contact {
+  background: #212529;
+  height: 400px;
 }
 
 .footer {
   height: 300px;
-  background: #ff1717;
+  background: #1f1f1f;
 }
 
 .test {

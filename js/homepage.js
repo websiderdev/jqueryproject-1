@@ -31,5 +31,20 @@ $(function() {
         pauseOnHover: false
       });
 
+      $('.whatwedo-wrapper-slider').slick({
+        dots: false,
+        infinite: true,
+        speed: 1000,
+        fade: true,
+        cssEase: 'linear',
+        autoplay: false,
+        autoplaySpeed: 3000,
+        swipeToSlide: true,
+        prevArrow: "",
+        nextArrow: "",
+        pauseOnFocus: false,
+        pauseOnHover: false
+      });
+
       console.log("hello");
 });

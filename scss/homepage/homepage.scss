@@ -1,9 +1,13 @@
+$primary: #212529;
+$secondary: #1f1f1f;
+
 .container-fluid {
   padding: 0;
 }
 
 .section {
   height: 750px;
+  padding: 5rem 8rem;
 }
 
 #header {
@@ -12,7 +16,7 @@
   position: fixed;
   width: 100%;
   top: 0;
-  background:#212529;
+  background: $primary;
   color: white;
   transition: top 0.5s;
   z-index: 20;
@@ -70,6 +74,7 @@
     background: white;
     // margin-top: 130px;
     overflow: hidden;
+    padding: 0;
 
     .banner-slider {
       width: 100%;
@@ -97,25 +102,76 @@
     }
 }
 
-.focus {
-  background: green;
+.heading {
+  color: white;
+  font-size: 3rem;
+  text-align: center;
 }
 
-.service {
-  background: rgb(181, 240, 43);
+.who-we-are {
+  background: $primary;
+
+  .whoweare-wrapper {
+    display: flex;
+    width: 100%;
+    height: 450px;
+    margin-top: 60px;
+
+    .left-content {
+      width: 50%;
+      background: red;
+    }
+    .right-content {
+      width: 50%;
+      background: green;
+    }
+  }
 }
 
-.gallery {
-  background: rgb(197, 93, 23);
+.what-we-do {
+  background: $secondary;
+
+  .heading {
+    text-align: left;
+  }
+
+  .whatwedo-wrapper-slider {
+    margin-top: 60px;
+
+    .slider-wrapper {
+      display: flex;
+      outline: none;
+
+      img {
+        width: 60%;
+        height: 450px;
+        object-fit: cover;
+        object-position: center;
+      }
+
+      .slider-text {
+        color: white;
+        width: 40%;
+        padding: 4rem 0rem 4rem 4rem;
+        font-size: 3rem;
+      }
+    }
+  }
 }
 
-.follow {
-  background: rgb(14, 238, 227);
+.social-media {
+  background: $primary;
+  height: 400px;
+}
+
+.contact {
+  background: $primary;
+  height: 400px;
 }
 
 .footer {
   height: 300px;
-  background: rgb(255, 23, 23);
+  background: $secondary;
 }
 
 .test {
